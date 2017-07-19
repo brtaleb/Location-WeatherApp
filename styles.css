@@ -1,0 +1,62 @@
+@import url('http://fonts.googleapis.com/css?family=Raleway:400,500');
+@import url('http://fonts.googleapis.com/css?family=Average:400,500');
+
+*{
+	font-family: 'Raleway';
+	background-color: #13232E;
+	color:white;
+}
+
+#title{
+	text-align: center;
+	color: white;
+	font-size: 45pt;
+}
+
+#contain{
+	text-align: left;
+	margin-left: 350px;
+	font-size: 36pt;
+	width: 500px;
+	margin-top: 100px;
+}
+
+#but{
+	border:3px solid white;	
+	outline:none;
+	font-size: 12pt;
+	cursor: pointer;
+	color: white;
+	width: 120px;
+	height: 40px;
+	border-radius: 10px;
+	display: none;	
+	margin-top: 10px;
+}
+
+#ico{
+	float: left;
+}
+
+#ma{
+	float: right;
+	margin-right: 250px;
+}
+
+#home{
+	border:10px solid white;
+	border-radius: 50%;
+	width: 300px;
+	height: 300px;
+	color: white;
+	font-size: 36pt;
+	margin-left: 600px;
+	cursor: pointer;
+	margin-top: 50px;
+	outline: none;
+	transition: all 0.3s ease;
+}
+#home:hover{
+	background-color: #999999;
+	transition: all 0.3s ease;
+}
